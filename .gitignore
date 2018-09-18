@@ -1,0 +1,8 @@
+/ENVdownloader/
+/Tests/
+/__pycache__/
+
+
+mirroredSites.txt
+toDownload.txt
+token.txt
