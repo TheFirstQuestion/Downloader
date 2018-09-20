@@ -1,0 +1,9 @@
+[Unit]
+Description=Downloader
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/downloaderWrapper
+
+[Install]
+WantedBy=multi-user.target

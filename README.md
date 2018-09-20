@@ -8,6 +8,14 @@
 * [Set up a bot with BotFather](https://core.telegram.org/bots#6-botfather): put token in new file `token.txt`
 
 
+## Installation
+* Move downloaderWrapper.sh to  /usr/bin/downloaderWrapper: `mv downloaderWrapper.sh /usr/bin/downloaderWrapper`
+* Make the script executabl: `sudo chmod +x /usr/bin/downloaderWrapper`
+* Move the service file: `mv downloader.service /usr/lib/systemd/system/my.service`
+* Reload all systemd service files: `sudo systemctl daemon-reload`
+* Check that it is working by starting the service: `sudo systemctl start downloader`
+
+
 ## Usage
 _All commands are sent to the Telegram bot. By default, Telegram autocorrects `--` to `—`. Either is acceptable._
 
