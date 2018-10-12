@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 from newspaper import Article
 import sys
 

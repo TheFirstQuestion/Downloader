@@ -9,11 +9,7 @@
 
 
 ## Installation
-* Move downloaderWrapper.sh to  /usr/bin/downloaderWrapper: `mv downloaderWrapper.sh /usr/bin/downloaderWrapper`
-* Make the script executabl: `sudo chmod +x /usr/bin/downloaderWrapper`
-* Move the service file: `mv downloader.service /usr/lib/systemd/system/my.service`
-* Reload all systemd service files: `sudo systemctl daemon-reload`
-* Check that it is working by starting the service: `sudo systemctl start downloader`
+
 
 
 ## Usage

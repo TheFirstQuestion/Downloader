@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Bot for Downloader
+
+[Service]
+Type=simple
+User=main
+WorkingDirectory=/home/main/Downloader
+ExecStart=/usr/bin/python3 telegram_bot.py
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

@@ -40,7 +40,5 @@ handler = MessageHandler(Filters.text, parseMessage)
 # Watch for it
 dispatcher.add_handler(handler)
 
-
-
 # And, go!
 updater.start_polling()
